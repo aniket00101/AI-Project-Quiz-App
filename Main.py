@@ -4,7 +4,7 @@ import random
 
 class QuizGame:
 
-    def __init__(self, root):  # ✅ FIXED: Changed _init_ to __init__
+    def __init__(self, root):
         self.root = root
         self.root.title("AI Quiz Game")
         self.root.geometry("800x650")
